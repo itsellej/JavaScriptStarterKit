@@ -9,7 +9,7 @@ describe('numbers', () => {
 
     it('adds two numbers that are the same', () => {
       // Why is this failing?
-      expect(numbers.addToNumber(1, 1)).toEqual(3);
+      expect(numbers.addToNumber(1, 1)).toEqual(2);
     });
   });
 
