@@ -5,5 +5,10 @@ describe('coinchanger', () => {
     it('returns 0 when given 0', () => {
       expect(coinchanger.changeCoins(0)).toEqual(0);
     });
+
+    it('returns 0 when given 0', () => {
+      expect(coinchanger.changeCoins(0)).toEqual(0);
+    });
+    
   });
 });

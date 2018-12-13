@@ -1,5 +1,5 @@
-const changeCoins = () => {
-  return 0
+const changeCoins = (money) => {
+  return money
 }
 
 module.exports = { changeCoins };
