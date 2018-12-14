@@ -27,5 +27,9 @@ describe('coinchanger', () => {
     it('returns [100, 10, 5, 2, 1] when given 118', () => {
       expect(coinchanger.changeCoins(118)).toEqual([100, 10, 5, 2, 1]);
     });
+
+    it('returns [200, 100, 10, 5, 2, 1] when given 318', () => {
+      expect(coinchanger.changeCoins(318)).toEqual([200, 100, 10, 5, 2, 1]);
+    });
   });
 });
