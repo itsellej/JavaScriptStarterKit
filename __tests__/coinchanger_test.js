@@ -35,5 +35,9 @@ describe('coinchanger', () => {
     it('returns [200, 100, 50, 20, 10, 5, 2, 1] when given 388', () => {
       expect(coinchanger.changeCoins(388)).toEqual([200, 100, 50, 20, 10, 5, 2, 1]);
     });
+
+    it('returns [200, 200, 100, 50, 20, 10, 5, 2, 1] when given 588', () => {
+      expect(coinchanger.changeCoins(588)).toEqual([200, 200, 100, 50, 20, 10, 5, 2, 1]);
+    });
   });
 });
