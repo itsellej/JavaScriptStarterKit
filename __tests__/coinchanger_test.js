@@ -12,12 +12,12 @@ describe('coinchanger', () => {
       expect(coinchanger.changeCoins(3)).toEqual([2, 1]);
     });
 
-    // it('returns not a coin if money is not equal to coin or 3', () => {
-    //   expect(coinchanger.changeCoins(6)).toEqual('not a coin');
-    // });
-
     it('returns [2, 2] when given 4', () => {
       expect(coinchanger.changeCoins(4)).toEqual([2, 2]);
+    });
+
+    it('returns [5, 2, 1] when given 8', () => {
+      expect(coinchanger.changeCoins(8)).toEqual([5, 2, 1]);
     });
   });
 });
